@@ -1,0 +1,43 @@
+/* ─── Brockmann Font ──────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Brockmann';
+  src: url('/src/assets/fonts/brockmann-regular-webfont.woff2') format('woff2'),
+       url('/src/assets/fonts/brockmann-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brockmann';
+  src: url('/src/assets/fonts/brockmann-medium-webfont.woff2') format('woff2'),
+       url('/src/assets/fonts/brockmann-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brockmann';
+  src: url('/src/assets/fonts/brockmann-semibold-webfont.woff2') format('woff2'),
+       url('/src/assets/fonts/brockmann-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brockmann';
+  src: url('/src/assets/fonts/brockmann-bold-webfont.woff2') format('woff2'),
+       url('/src/assets/fonts/brockmann-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Tailwind ────────────────────────────────────────────────────────────── */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
