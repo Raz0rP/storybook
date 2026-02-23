@@ -18,7 +18,7 @@ function SparkleIcon({ size = 24 }) {
 const COLOR_CLASSES = {
   Yellow: 'bg-yellow text-plum',
   Plum: 'bg-plum text-white',
-  Outlined: 'bg-white border border-plum text-plum',
+  Outlined: 'bg-transparent border border-plum text-plum',
   Grey: 'bg-grey-extra-light text-plum',
   Transparent: 'bg-white text-plum',
 }
@@ -26,7 +26,7 @@ const COLOR_CLASSES = {
 const DISABLED_CLASSES = {
   Yellow: 'bg-grey-extra-light text-grey-default',
   Plum: 'bg-grey-extra-light text-grey-default',
-  Outlined: 'bg-grey-extra-light border border-grey-dark text-grey-default',
+  Outlined: 'bg-transparent border border-grey-dark text-grey-default',
   Grey: 'bg-grey-extra-light text-grey-default',
   Transparent: 'bg-grey-extra-light text-grey-default',
 }
